@@ -1,0 +1,224 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0px
+    padding left: 40px;
+    padding-right: 995px;
+}
+
+span{margin: 0px
+    padding left: 40px;
+    padding-right: 995px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public sans', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    box-shadow: 5% 10% #888888 v;
+}
+
+.navbody,
+.service-body {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    padding: 1.5em;
+}
+
+.navmenu {
+    font-size: 15px;
+    float: right;
+    margin: 0;
+    list-style: none;
+    padding: 4px 0;
+}
+
+.navitem {
+    cursor: pointer;
+    display: inline;
+    padding: 0px 20px;
+}
+
+/* Banner */
+.bancontainer {
+    width: 100%;
+}
+
+.banbody {
+    overflow: hidden;
+    height: 100%;
+    background-image: url("latat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin: 20px;;
+}
+
+.bancolor {
+    width: 100%;
+    height: 480px;
+    text-align: left;
+    padding: 180px 799px;
+    color: rgb(10, 10, 10);
+    font-family: 'Alata', sans-serif !imp\ortant;
+}
+
+.bancolor h2 {
+    font-size: 50px;
+    margin-top: 175px;
+    margin-bottom: 0;
+    text-decoration-style: double;
+    font-style: bold;
+}
+
+.bancolor h3 {
+    font-size: 27px;
+    margin: 2px;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+.bancolor span {
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: solid 3px rgb(10, 10, 10);
+    text-align: left;
+    padding: 0;
+}
+
+/* Service */
+.service-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.service-body {
+    justify-content: center;
+    display: flex;
+    /* padding: 20px !important; */
+}
+
+.service-box {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 550px;
+    padding: 14px 20px;
+    /* border: solid 1px gray; */
+    margin: 0 10px;
+    text-align: left;
+    background-color: #323fb4;
+    color: white;
+}
+
+.title {
+    font-size: 20px !important;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.btn {
+    font-size: 14px !important;
+    border: none;
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer-container {
+    width: 100%;
+    background-color: #a2a2b4;
+}
+
+.footer-body {
+    height: 48px;
+    padding: 35px;
+    margin: auto;
+    width: 80%;
+}
+
+.footer-info {
+    float: left;
+}
+
+.subscribe {
+    float: right;
+    padding: 5px 25px;
+    font-size: 18px !important;
+    background-color:  #a2a2b4;
+}
+
+.end {
+    font-size: 14px;
+    padding: 14px 0;
+    color:#323fb4;
+    text-align: center;
+    background-color: #a2a2b4;
+
+}
+
+.btn:hover,
+.banner-color span:hover {
+    background-color: #323fb4;
+    color: #a2a2b4;
+    transition: 0.2s ease;
+}
+
+.knt{
+    overflow: hidden;
+    height: 90%;
+    background-image: url("ada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 0;
+}
+
+.kontak{
+    font-size: 8px;
+    text-align: left;
+    color: white;
+    padding :80px;
+}
+
+.about{
+    overflow: hidden;
+    height: 90%;
+    background-image: url("ada.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 0;
+}
+
+.p{
+    font-size: 8px;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    space: 3pt;
+}
